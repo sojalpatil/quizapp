@@ -1,0 +1,68 @@
+CREATE TABLE "question" (
+    "id" SERIAL PRIMARY KEY,
+    "category" VARCHAR(25),
+    "difficulty_level" VARCHAR(25),
+    "option1" VARCHAR(255),
+    "option2" VARCHAR(255),
+    "option3" VARCHAR(255),
+    "option4" VARCHAR(255),
+    "question_title" VARCHAR(255),
+    "correct_answer" VARCHAR(255)
+);
+
+select * from question;
+
+INSERT INTO question (category,difficulty_level,option1,option2,option3,option4,question_title,correct_answer)
+values('Java','Easy','class','extends','implements','apply','What keyword in Java is used to create a subclass?','extends');
+
+INSERT INTO question (category,difficulty_level,option1,option2,option3,option4,question_title,correct_answer)
+values('Python ','Easy','object-oriented programming','structured programming','functional programming',
+       'all of the mentioned','Which type of Programming does Python support?','all of the mentioned');
+
+INSERT INTO question (category,difficulty_level,option1,option2,option3,option4,question_title,correct_answer)
+values('Java','Easy','true','false','0','null','In Java, what is the uninitialize value of boolean?','false');
+
+INSERT INTO question (category,difficulty_level,option1,option2,option3,option4,question_title,correct_answer)
+values('Python','Easy','no','yes','machine dependent','none of the mentioned','Is python ase sensitive when dealing with identifiers?','yes');
+
+INSERT INTO question (category,difficulty_level,option1,option2,option3,option4,question_title,correct_answer)
+values('Java','Easy','1 byte','4 byte','8 byte','16 byte','Maximum size of int in Java','4 byte');
+
+INSERT INTO question (category,difficulty_level,option1,option2,option3,option4,question_title,correct_answer)
+values('Java','Medium','Insert','Abstract','Assert','Boolean','Which keyword is used for debugging in Java?','Assert');
+
+INSERT INTO question (category,difficulty_level,option1,option2,option3,option4,question_title,correct_answer)
+values('Python','Easy','Capitalized','lower case','upper case','None of the mentioned','All keywords in Python are in _________','None of the mentioned');
+
+INSERT INTO question (category,difficulty_level,option1,option2,option3,option4,question_title,correct_answer)
+values('Java','Easy','Execute','Debug','Interpret','Compile','What is the use of "javac" command','Compile');
+
+INSERT INTO question (category,difficulty_level,option1,option2,option3,option4,question_title,correct_answer)
+values('Python','Easy','function','def','fun','define','Which keyword is used for function in Python language?','def');
+
+INSERT INTO question (category,difficulty_level,option1,option2,option3,option4,question_title,correct_answer)
+values('Java','Easy','Java keywords cannot be used as variable names','Variable names are case-sensitive','First character must be a letter',
+       'All of them','Which of the following is/are the rules to declare variables in Java','All of them');
+
+INSERT INTO question (category,difficulty_level,option1,option2,option3,option4,question_title,correct_answer)
+values('Python','Easy','//','#','!','/*','Which of the following character is used to give single-line comments in Python?','#');
+
+INSERT INTO question (category,difficulty_level,option1,option2,option3,option4,question_title,correct_answer)
+values('Java','Easy','short','long','long double','boolean','Which of the following is not a primitive type?','long double');
+
+INSERT INTO question (category,difficulty_level,option1,option2,option3,option4,question_title,correct_answer)
+values('Python','Medium','pi','lambda','anonymous','none of the mentioned',
+       'Python supports the creation of anonymous functions at runtime, using a construct called __________','lambda');
+
+INSERT INTO question (category,difficulty_level,option1,option2,option3,option4,question_title,correct_answer)
+values('Python','Easy','Exponential, Parentheses, Multiplication, Division, Addition, Subtraction',
+       'Exponential, Parentheses, Division, Multiplication, Addition, Subtraction',
+       'Parentheses, Exponential, Multiplication, Division, Subtraction, Addition',
+       'Parentheses, Exponential, Multiplication, Division, Addition, Subtraction',
+       'What is the order of precedence in python?,','Parentheses, Exponential, Multiplication, Division, Addition, Subtraction');
+
+INSERT INTO question (category,difficulty_level,option1,option2,option3,option4,question_title,correct_answer)
+values('Python','Easy','-4','-3','2','False','What will be the output of the following Python function? min(max(False,-3,-4), 2,7)','False');
+
+INSERT INTO question (category,difficulty_level,option1,option2,option3,option4,question_title,correct_answer)
+values('Java','Easy','Java.lang.system','Java.lang.class','Java.lang.object','Java.lang,reflect.object','Parent class of all java classes is ______','Java.lang.object');

@@ -1,0 +1,20 @@
+Create springboot quiz app
+
+Framework - Springboot
+DB - Postgres dbeaver-ui
+
+
+Building a quiz application using Spring Boot.
+Create a REST controller to handle requests for all questions
+Create a model class to represent the table columns
+Create a Question DAO using Spring Data JPA for fetching data from the database
+We can fetch questions by category and retrieve questions based on a specific category.
+Create a method to add a question and return a success message
+Handling exceptions and HTTP response status codes in the question service.
+Handle exceptions and return response entities in controller and service methods.
+Create a quiz and send data using a post request
+Create a quiz with questions
+Successfully created and fetched quiz data
+Create a question wrapper class to exclude irrelevant data from the quiz response
+Create a method in the controller to submit a quiz and calculate the score.
+Created a method in the service for calculating quiz responses
